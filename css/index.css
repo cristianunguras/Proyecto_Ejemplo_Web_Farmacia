@@ -1,0 +1,36 @@
+
+html {
+    font-size: 18px;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu__navegador__inicio,.menu__navegador__productos,.menu__navegador__contactar{padding: 2rem;}
+.banner{
+    display:flex;
+    justify-content: space-between;
+}
+.texto_productos{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.texto_productos__texto{color:#7DBB02;padding: 1rem;}
+.texto_productos__boton{
+    font-size: 16px;
+    background-color:#7DBB02; 
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.imagenes_productos{
+    display:flex;
+    justify-content: space-between;
+}
